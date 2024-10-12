@@ -13,7 +13,7 @@ import stat
 
 
 # Ayar dosyası yolu
-CONFIG_FILE = '/home/glio/MyFile/Downloader/config.json'
+CONFIG_FILE = 'config.json' #Dosya yolu
 
 # Varsayılan indirme yolu
 DEFAULT_DOWNLOAD_PATH = os.path.join(os.path.expanduser("~"), "Downloads")
